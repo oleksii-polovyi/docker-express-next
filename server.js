@@ -14,7 +14,7 @@ app
       return handle(req, res);
     });
 
-    server.listen(port, (e) => {
+    server.listen(process.env.PORT || port, (e) => {
       if (e) throw e;
       console.log("> Ready on port:" + port);
     });
