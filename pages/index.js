@@ -1,6 +1,6 @@
 const Index = () => (
   <div>
-    <p>Express-Next app landing page</p>
+    <p>Landing page for docker-express-next app.</p>
   </div>
 );
 export default Index;

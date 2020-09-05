@@ -1,7 +1,7 @@
 {
-  "name": "express-next",
-  "version": "0.0.1",
-  "description": "A sample Express-Next app",
+  "name": "docker-express-next",
+  "version": "1.0.0",
+  "description": "A sample docker-express-next app deployed to Heroku.",
   "main": "server.js",
   "scripts": {
     "build": "next build",
@@ -15,7 +15,9 @@
   },
   "keywords": [
     "express",
-    "next"
+    "next",
+    "docker",
+    "heroku"
   ],
   "author": "Oleksii Polovyi",
   "license": "MIT"

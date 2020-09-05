@@ -1,3 +1,3 @@
-# express-next
+# docker-express-next
 
-A sample Express-Next app deployed to Heroku with Docker.
+A sample docker-express-next app deployed to Heroku.
