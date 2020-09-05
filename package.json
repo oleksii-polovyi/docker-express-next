@@ -4,8 +4,8 @@
   "description": "A sample Express-Next app",
   "main": "server.js",
   "scripts": {
-    "build": "next build",
-    "start": "next start"
+    "start": "node server.js",
+    "postinstall": "next build && next start"
   },
   "dependencies": {
     "express": "^4.17.1",
