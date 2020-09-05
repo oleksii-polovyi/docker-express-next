@@ -1,0 +1,22 @@
+{
+  "name": "express-next",
+  "version": "0.0.1",
+  "description": "A sample Express-Next app",
+  "main": "server.js",
+  "scripts": {
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "next": "^9.5.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "keywords": [
+    "express",
+    "next"
+  ],
+  "author": "Oleksii Polovyi",
+  "license": "MIT"
+}
