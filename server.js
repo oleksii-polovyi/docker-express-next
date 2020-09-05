@@ -8,13 +8,13 @@ app
   .prepare()
   .then(() => {
     const server = express();
-    const port = 3000;
+    const port = process.env.PORT || 3000;
 
     server.get("*", (req, res) => {
       return handle(req, res);
     });
 
-    server.listen(process.env.PORT || port, '0.0.0.0', (e) => {
+    server.listen(port, '0.0.0.0', (e) => {
       if (e) throw e;
       console.log("> Ready on port:" + port);
     });
