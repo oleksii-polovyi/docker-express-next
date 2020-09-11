@@ -1,6 +1,9 @@
 language: node_js
 node_js:
   - "stable"
-cache:
-  directories:
-    - "node_modules"
+jobs:
+  include:
+    - stage: build docker image
+    script: docker build -t travis-ci .
+    - stage: test
+    script: npm run test
