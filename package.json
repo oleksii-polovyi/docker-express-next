@@ -1,15 +1,18 @@
 {
   "name": "docker-express-next",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A sample docker-express-next app deployed to Heroku.",
   "main": "server.js",
   "scripts": {
     "build": "next build",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "mocha --exit"
   },
   "dependencies": {
+    "chai": "^4.2.0",
     "express": "^4.17.1",
-    "next": "^9.5.2",
+    "mocha": "^8.1.3",
+    "next": "^9.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

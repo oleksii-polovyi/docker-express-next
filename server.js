@@ -14,10 +14,12 @@ app
       return handle(req, res);
     });
 
-    server.listen(port, '0.0.0.0', (e) => {
+    server.listen(port, "0.0.0.0", (e) => {
       if (e) throw e;
-      console.log("> Ready on port:" + port);
+      console.log("> Ready on port " + port);
     });
+
+    module.exports = server;
   })
   .catch((e) => {
     console.error(e.stack);

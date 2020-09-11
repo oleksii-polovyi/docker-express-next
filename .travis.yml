@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+    - "stable"
+install:
+    - npm ci --prod && npm run build
+jobs:
+    include:
+        - stage: "Test"
+          script: npm run test
