@@ -3,6 +3,7 @@ node_js:
     - "stable"
 jobs:
     include:
-        - script: npm run build
-        - stage: test
-        - script: npm run test
+        - stage: "Build"
+          script: npm run build
+        - stage: "Test"
+          script: npm run test
