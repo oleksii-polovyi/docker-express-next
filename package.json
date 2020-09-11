@@ -1,6 +1,6 @@
 {
   "name": "docker-express-next",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A sample docker-express-next app deployed to Heroku.",
   "main": "server.js",
   "scripts": {
