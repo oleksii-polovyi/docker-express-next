@@ -1,9 +1,7 @@
 language: node_js
 node_js:
-  - "stable"
+    - "stable"
 jobs:
-  include:
-    - stage: next build
-    script: npm run build
-    - stage: test
-    script: npm run test
+    include:
+        - script: npm run build
+        - script: npm run test
